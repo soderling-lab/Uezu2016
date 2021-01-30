@@ -1,10 +1,15 @@
 # Uezu2016
 
-iBioID proteoimcs data from Uezu __et al.,__ 2016, published in
+iBioID proteoimcs data from Uezu _et al.,_ 2016, published in
 [Science](https://science.sciencemag.org/content/353/6304/1123.full).
 
-Access the raw data in R using [readxl](https://readxl.tidyverse.org/).
+To access the raw data in R, install the package with devtools, and then access
+the data in `inst/extdta` using `system.file` and [readxl](https://readxl.tidyverse.org/).
+
 ```R
+
+devtools::install_github("soderling-lab/Uezu2016")
+
 library(readxl)
 
 # the Uezu2016 package contains the following files in inst/extdata:
