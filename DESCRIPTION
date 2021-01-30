@@ -1,0 +1,15 @@
+Package: Uezu2016
+Title: iBioID Proteomics from Uezu, Kanak, Bradshaw et al., 2016
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tyler",
+           family = "Bradshaw",
+           role = c("aut", "cre"),
+           email = "twesleyb10@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: data from Uezu2016
+License: GNU V3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

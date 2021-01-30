@@ -1,0 +1,6 @@
+rdata/
+ARCHIVE/
+figs/
+*.sw*
+*.report
+debug.log
