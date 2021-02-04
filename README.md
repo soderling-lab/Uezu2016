@@ -19,7 +19,7 @@ ipsd <- "iPSD_BioID-Supplementary-data.xlsx"
 # access your system's path to the data
 myfile <- system.file("extdata", ipsd, package="Uezu2016")
 
-readxl::excel_sheets(myfile)
+rjeadxl::excel_sheets(myfile)
 
 # [1] "Table 1" "Table 2" "Table 3" 
 # ^MS info, Sample info, and the raw (peptide-level) data
