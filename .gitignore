@@ -4,3 +4,4 @@ figs/
 *.sw*
 *.report
 debug.log
+work/
