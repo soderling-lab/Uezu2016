@@ -32,3 +32,21 @@ df <- readxl::read_excel(myfile, sheet = 3)
 ```
 
 ![ipsd](./ipsd.png)
+
+## Citation
+
+```bibtex
+@article{Uezu2016,
+	doi = {10.1126/science.aag0821},
+	url = {https://doi.org/10.1126%2Fscience.aag0821},
+	year = 2016,
+	month = {sep},
+	publisher = {American Association for the Advancement of Science ({AAAS})},
+	volume = {353},
+	number = {6304},
+	pages = {1123--1129},
+	author = {A. Uezu and D. J. Kanak and T. W. A. Bradshaw and E. J. Soderblom and C. M. Catavero and A. C. Burette and R. J. Weinberg and S. H. Soderling},
+	title = {Identification of an elaborate complex mediating postsynaptic inhibition},
+	journal = {Science}
+}
+```
