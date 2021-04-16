@@ -6,9 +6,6 @@
 # author: Tyler W A Bradshaw
 
 
-
-
-
 ## ---- inputs
 
 # project root, everything is relative to this path
@@ -526,15 +523,15 @@ message("saved: ", myfile)
 myfile <- file.path(root,"data","gphn.rda")
 save(gphn,file=myfile,version=2)
 message("saved: ", myfile)
-#
+
 myfile <- file.path(root,"data","insyn1.rda")
 save(insyn1,file=myfile,version=2)
 message("saved: ", myfile)
-#
+
 myfile <- file.path(root,"data","collybistin.rda")
 save(collybistin,file=myfile,version=2)
 message("saved: ", myfile)
-#
+
 myfile <- file.path(root,"data","insyn2.rda")
 save(insyn2,file=myfile,version=2)
 message("saved: ", myfile)
