@@ -33,15 +33,7 @@ df <- readxl::read_excel(myfile, sheet = 3)
 
 ![ipsd](./ipsd.png)
 
-<<<<<<< HEAD
 
-## References
-__[1]__ Identification of an Elaborate Complex Mediating Postsynaptic Inhibition.  
-Akiyoshi Uezu, Daniel J. Kanak, Tyler W.A. Bradshaw, Erik J. Soderblom, 
-Christina M. Catavero, Alain C. Burette, Richard J. Weinberg, and Scott H. Soderling.  
-[Science.](https://science.sciencemag.org/node/683771.full)
-2016 Sep 9; 353(6304): 1123–1129. DOI: 10.1126/science.aag0821  
-=======
 ## Citation
 
 ```bibtex
@@ -59,4 +51,3 @@ Christina M. Catavero, Alain C. Burette, Richard J. Weinberg, and Scott H. Soder
 	journal = {Science}
 }
 ```
->>>>>>> 3d6cc719515ee6a57db730d9a6dfd1d3939a267d
