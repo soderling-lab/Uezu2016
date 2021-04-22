@@ -1,10 +1,10 @@
 # Uezu2016
 
-iBioID proteoimcs data from Uezu _et al.,_ 2016, published in
+iBioID proteomics data from Uezu _et al.,_ 2016, published in
 [Science](https://science.sciencemag.org/content/353/6304/1123.full).
 
 To access the raw data in R, install the package with devtools, and then access
-the data in `inst/extdta` using `system.file` and
+the data in `inst/extdata` using `system.file` and
 [readxl](https://readxl.tidyverse.org/) (see example below). Or, if that sounds
 complicated, you can simply download the raw files from this repository,
 [here](./inst/extdata).
@@ -36,7 +36,7 @@ df <- readxl::read_excel(myfile, sheet = 3)
 
 ## Citation
 
-```bibtex
+```BibTeX
 @article{Uezu2016,
 	doi = {10.1126/science.aag0821},
 	url = {https://doi.org/10.1126%2Fscience.aag0821},
